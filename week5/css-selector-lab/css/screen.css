@@ -1,0 +1,47 @@
+/* Add your CSS below */
+
+/* Example: adding a background color to the HTML body */
+
+body {
+  /* #ccc is shorthand HEX for a light grey */
+    background: #ccc;
+    width: 75%;
+    margin: 0 auto;
+}
+
+nav ul {
+    padding: 10px;
+    list-style-type: none;
+    border:  1px solid #000;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+nav li {
+    display: inline;
+    border-right: 1px solid #000;
+    margin: auto;
+    padding: 10px;
+}
+
+
+nav a {
+    padding: 10px;
+}
+
+
+
+.post {
+    background-color: #ffffff;
+    border: 1px solid #000;
+    padding: 5px 15px 5px 15px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+#p-home {
+    color: #00C;
+}
+
+#p-about {
+    color: #080;
+}
