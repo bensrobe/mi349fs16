@@ -1,0 +1,58 @@
+/* Add your CSS below */
+
+/* Example: adding a background color to the HTML body */
+body {
+  /* #ccc is shorthand HEX for a light grey */
+  background: #fff;
+  font-family: Helvetica, sans-serif;
+}
+
+.cards {
+  width: 80%;
+  margin: auto 0;
+}
+
+.card {
+  background: linear-gradient(to bottom, grey, rgba(0,0,0,0));
+  float: left;
+  background-color: #fff;
+  margin: 10px;
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.card--title {
+  position: absolute;
+  top: 110px;
+  padding: 0px 0px 0px 10px;
+  color: white;
+
+}
+
+.card--preptime {
+  padding: 0px 0px 0px 10px;
+}
+
+.card--cooktime {
+  padding: 0px 0px 0px 10px;
+}
+
+.card--servings {
+  padding: 0px 0px 0px 10px;
+}
+
+.card--ingredients {
+
+}
+
+.card--source {
+  text-align: right;
+  padding-right: 18px;
+}
+
+.card--image {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0px 10px 5px #888888;
+}
